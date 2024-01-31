@@ -157,8 +157,6 @@ gap: 40px;
     color: #2E2F42;
 }
 
-
-
 .menu-header-link:hover,
 .menu-header-link:active,
 .menu-header-link:focus {
@@ -250,6 +248,21 @@ gap: 40px;
 .section-title {
     margin-bottom: 8px;
 }
+.section-title-icon-list {
+    display: flex;
+    gap: 24px;
+}
+.icon-icon {
+    border: 1px solid #8E8F99;
+    background: #F4F4FD;
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    padding: 24px 100px;
+    margin-bottom: 8px;
+}
+
 
 .sectoin-titel-list {
     display: flex;
@@ -292,6 +305,7 @@ gap: 40px;
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
     flex-basis: calc((100% - 72px) / 4);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -313,10 +327,13 @@ gap: 40px;
     padding-bottom: 32px;
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
-
-
-
 }
+
+.section-team-icon {
+    display: flex;
+    gap: 24px;
+}
+
 
 /*========================*/
 
