@@ -116,7 +116,7 @@ img {
     background: #404BBF;
     content: "";
     margin-top: 20px;
-    position: fixed;
+    position: absolute;
     justify-content: center;
 }
 
@@ -195,6 +195,7 @@ img {
     background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
 }
 
 
@@ -331,16 +332,19 @@ img {
     background: #FFF;
 }
 
-.link-team-icon {
+.section-team-icon {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 24px;
+    width: 232px;
+    height: 40px;
+    margin-top: 8px;
 }
 
 .section-team-list-icon {
     width: 40px;
     height: 40px;
-}
+    }
 
 .link-team-icon {
     width: 100%;
@@ -348,16 +352,17 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #404BBF;
-    border-radius: 50%;
-}
+    background-color: #4D5AE5;
+    border-radius: 50%;  }
 
 .list-icon {
     fill: #FFFFFF;
-}
+    }
 
 .link-team-icon:hover {
-    background-color: aqua;
+    background-color: #31D0AA;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*========================*/
@@ -380,6 +385,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .list-foto-portfolio {
