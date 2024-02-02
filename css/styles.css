@@ -424,13 +424,6 @@ img {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-text:hover {
-    transform: translateY(0%);
-}
-
-.list-foto-portfolio:hover .portfolio-cover-container {
-    transform: translateY(0%);
-}
 
 .portfolio-cover-container {
     position: relative;
@@ -443,7 +436,13 @@ img {
     overflow: hidden;
 }
 
-.portfolio-cover-container {
+.portfolio-cover-container-text {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    text-align: left;
     position: absolute;
     top: 0;
     background-color: #4D5AE5;
@@ -456,19 +455,10 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.portfolio-cover-container-text {
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-    text-align: left;
+.list-foto-portfolio:hover .portfolio-cover-container-text {
+    transform: translateY(0%);
 }
 
-.portfolio-cover-container-text {
-    transform: translateY(0);
-}
 
 /*=======================*/
 
