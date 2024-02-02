@@ -456,6 +456,7 @@ img {
 }
 
 .logo-footer {
+    display: inline-block;
     color: #4D5AE5;
     text-decoration: none;
     font-family: Raleway, sans-serif;
@@ -524,6 +525,7 @@ img {
 
 .section-footer-social {
     margin-left: 120px;
+    height: 80px;
 }
 
 /*==========================*/
