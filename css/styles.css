@@ -111,9 +111,9 @@ img {
     gap: 40px;
 }
 
-.menu-header-item {
+/*.menu-header-item {
     display: flex;
-}
+}*/
 
 .menu-header-link {
     text-decoration: none;
